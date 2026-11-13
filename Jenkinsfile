@@ -39,7 +39,7 @@ pipeline {
             echo '✅ CI Pipeline completed flawlessly! Code stability confirmed.'
         }
         failure {
-            echo '❌ CI Pipeline broken. Check console logs for build failures or breaking test regressions.'
+            echo '❌ CI Pipeline id broken now. Check console logs for build failures or breaking test regressions.'
         }
     }
 }
